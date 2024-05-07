@@ -1,0 +1,42 @@
+
+body, h1, form, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.registration-container {
+    margin: 50px auto;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+input[type="text"], button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
